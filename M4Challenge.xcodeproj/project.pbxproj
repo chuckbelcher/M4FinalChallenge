@@ -12,7 +12,9 @@
 		32BD7C652A69FCF900216583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BD7C642A69FCF900216583 /* Assets.xcassets */; };
 		32BD7C682A69FCF900216583 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BD7C672A69FCF900216583 /* Preview Assets.xcassets */; };
 		32BD7C732A69FDF400216583 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 32BD7C722A69FDF400216583 /* data.json */; };
-		32BD7C762A69FEF400216583 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD7C752A69FEF400216583 /* BookModel.swift */; };
+		32BD7C762A69FEF400216583 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD7C752A69FEF400216583 /* Book.swift */; };
+		32BD7C782A6B5A1C00216583 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD7C772A6B5A1B00216583 /* DataService.swift */; };
+		32BD7C7A2A6B5FE000216583 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD7C792A6B5FE000216583 /* BookModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +24,9 @@
 		32BD7C642A69FCF900216583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32BD7C672A69FCF900216583 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32BD7C722A69FDF400216583 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		32BD7C752A69FEF400216583 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		32BD7C752A69FEF400216583 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		32BD7C772A6B5A1B00216583 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		32BD7C792A6B5FE000216583 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		32BD7C6F2A69FD1800216583 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				32BD7C772A6B5A1B00216583 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		32BD7C702A69FD2400216583 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				32BD7C792A6B5FE000216583 /* BookModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -108,7 +114,7 @@
 		32BD7C742A69FE9600216583 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				32BD7C752A69FEF400216583 /* BookModel.swift */,
+				32BD7C752A69FEF400216583 /* Book.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,9 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32BD7C762A69FEF400216583 /* BookModel.swift in Sources */,
+				32BD7C7A2A6B5FE000216583 /* BookModel.swift in Sources */,
+				32BD7C762A69FEF400216583 /* Book.swift in Sources */,
 				32BD7C632A69FCF800216583 /* MainView.swift in Sources */,
 				32BD7C612A69FCF800216583 /* M4ChallengeApp.swift in Sources */,
+				32BD7C782A6B5A1C00216583 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

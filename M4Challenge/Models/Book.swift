@@ -8,7 +8,7 @@
 import Foundation
 
 
-class BookModel: Identifiable, Decodable {
+class Book: Identifiable, Decodable {
     var id: Int
     var title: String
     var author: String

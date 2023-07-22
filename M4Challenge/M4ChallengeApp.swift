@@ -12,6 +12,7 @@ struct M4ChallengeApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
+                .environmentObject(BookModel())
         }
     }
 }

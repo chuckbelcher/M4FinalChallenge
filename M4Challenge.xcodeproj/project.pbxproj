@@ -15,6 +15,8 @@
 		32BD7C762A69FEF400216583 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD7C752A69FEF400216583 /* Book.swift */; };
 		32BD7C782A6B5A1C00216583 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD7C772A6B5A1B00216583 /* DataService.swift */; };
 		32BD7C7A2A6B5FE000216583 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD7C792A6B5FE000216583 /* BookModel.swift */; };
+		32BD7C7E2A6EB14F00216583 /* BookPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD7C7D2A6EB14F00216583 /* BookPageView.swift */; };
+		32BD7C802A6EB26F00216583 /* BookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BD7C7F2A6EB26F00216583 /* BookCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		32BD7C752A69FEF400216583 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		32BD7C772A6B5A1B00216583 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		32BD7C792A6B5FE000216583 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		32BD7C7D2A6EB14F00216583 /* BookPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPageView.swift; sourceTree = "<group>"; };
+		32BD7C7F2A6EB26F00216583 /* BookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				32BD7C622A69FCF800216583 /* MainView.swift */,
+				32BD7C7F2A6EB26F00216583 /* BookCardView.swift */,
+				32BD7C7D2A6EB14F00216583 /* BookPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,9 +198,11 @@
 			files = (
 				32BD7C7A2A6B5FE000216583 /* BookModel.swift in Sources */,
 				32BD7C762A69FEF400216583 /* Book.swift in Sources */,
+				32BD7C7E2A6EB14F00216583 /* BookPageView.swift in Sources */,
 				32BD7C632A69FCF800216583 /* MainView.swift in Sources */,
 				32BD7C612A69FCF800216583 /* M4ChallengeApp.swift in Sources */,
 				32BD7C782A6B5A1C00216583 /* DataService.swift in Sources */,
+				32BD7C802A6EB26F00216583 /* BookCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,8 +11,18 @@ struct MainView: View {
     @EnvironmentObject var bookModel: BookModel
     
     var body: some View {
-        List(bookModel.book) { book in
-            Text(book.title)
+        NavigationView {
+            ScrollView {
+                ForEach (bookModel.book) { book in
+                    NavigationLink {
+                        BookPageView(title: book.title, content: book.content, pageNumber: book.currentPage)
+                    } label: {
+                        BookCardView(book: book)
+                            .foregroundColor(.black)
+                    }
+                    .padding(5)
+                }
+            }
         }
     }
 }
